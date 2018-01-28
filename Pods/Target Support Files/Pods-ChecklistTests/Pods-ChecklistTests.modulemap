@@ -1,0 +1,6 @@
+framework module Pods_ChecklistTests {
+  umbrella header "Pods-ChecklistTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

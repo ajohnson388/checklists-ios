@@ -1,0 +1,6 @@
+framework module Pods_Checklist_Widget {
+  umbrella header "Pods-Checklist Widget-umbrella.h"
+
+  export *
+  module * { export * }
+}
