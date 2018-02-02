@@ -11,7 +11,7 @@ Clone the project and open the `Checklist.xcworkspace` file. Then run the app wi
 ### Prerequisites
 
 Cocoapods and Xcode 9 are required to run Checklists. If you do not have Cocoapods
-installed your machine, please visit [Cocoapods](https://cocoapods.org/) for instructions.
+installed on your machine, please visit [Cocoapods](https://cocoapods.org/) for instructions.
 Xcode 9 can be installed from the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
 
 ## Built With
