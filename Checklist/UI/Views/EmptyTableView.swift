@@ -57,14 +57,14 @@ final class EmptyTableView: UIView {
         textLabel.numberOfLines = 0
         textLabel.textColor = Theme.current.colorTheme.secondaryText
         textLabel.font = UIFont(name: textLabel.font.fontName, size: 16)
-        textLabel.text = "There are no lists to display. \nTry adding one by tapping the '+' button."
+        textLabel.text = Strings.noListsMessage.localizedString
         textLabel.textAlignment = .center
     }
     
     fileprivate func applyAutolayout() {
         textLabel.translatesAutoresizingMaskIntoConstraints = false
-        textLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
-        textLabel.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
+        textLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16).isActive = true
+        textLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16).isActive = true
         textLabel.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         textLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
     }

@@ -11,7 +11,7 @@ import Gloss
 
 struct List {
     var id: String = UUID().uuidString
-    var title: String = "New list"
+    var title: String = NSLocalizedString(Strings.newListTitle.rawValue, comment: "")
     var tasks: [Item] = []
     var created: Date = Date()
     var isPrimary: Bool = true

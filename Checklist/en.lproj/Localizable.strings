@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Checklist
+
+  Created by Andrew Johnson on 2/1/18.
+  Copyright © 2018 Andrew Johnson. All rights reserved.
+*/
+
+// Title of the checklists view nav bar
+"lists_title" = "List";
+
+// Title of the list view nav bar
+"list_new_title" = "New list";
+
+// Message when there are no lists to display
+"lists_empty_message" = "There are no lists to display. \nTry adding one by tapping the '+' button.";
+
+// Placeholder used for adding a new task
+"list_new_task_placeholder" = "Add new task..";
+
+// Title for button to delete a task
+"list_task_delete" = "Delete";

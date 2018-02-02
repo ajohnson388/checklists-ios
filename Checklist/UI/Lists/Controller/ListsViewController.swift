@@ -84,7 +84,7 @@ final class ListsViewController: UICollectionViewController {
         navigationItem.backBarButtonItem =
             UIBarButtonItem(title: "", style: .plain,
                             target: nil, action: nil)
-        navigationItem.title = "Checklists"
+        navigationItem.title = Strings.listsTitle.localizedString
     }
     
     func setupCollectionView() {

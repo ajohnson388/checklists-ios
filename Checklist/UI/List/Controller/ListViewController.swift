@@ -55,7 +55,7 @@ final class ListViewController: UITableViewController {
         listTitleTextField = UITextField(frame: CGRect(x: 0, y: 0, width: textFieldWidth - 128, height: 21))
         guard let textField = listTitleTextField else { return }
         textField.textAlignment = NSTextAlignment.center
-        textField.text = interactor.viewModel?.title ?? "New Task"
+        textField.text = interactor.viewModel?.title ?? Strings.newListTitle.localizedString
         textField.font = UIFont(name: "HelveticaNeue-Medium", size: 18)
         textField.delegate = self
         textField.tag = FieldType.title.rawValue
@@ -295,7 +295,7 @@ extension ListViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseId) as? NewTaskTableViewCell
             ?? NewTaskTableViewCell(reuseId: reuseId)
         cell.textField.text = nil
-        cell.textField.placeholder = "Add new task.."
+        cell.textField.placeholder = Strings.addNewTaskPlaceholder.localizedString
         cell.textField.delegate = self
         cell.textField.textColor = Theme.current.colorTheme.primaryText
         cell.textField.tag = FieldType.task.rawValue
@@ -362,7 +362,8 @@ extension ListViewController {
     
     override func tableView(_ tableView: UITableView,
                             editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let action = UITableViewRowAction(style: .destructive, title: "Delete") { _, indexPath in
+        let action = UITableViewRowAction(style: .destructive,
+                                          title: Strings.deleteTaskButtonTitle.localizedString) { _, indexPath in
             self.deleteTask(at: indexPath)
         }
         action.backgroundColor = UIColor.red
