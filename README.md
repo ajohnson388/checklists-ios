@@ -1,5 +1,3 @@
-![Checklists](https://github.com/ajohnson388/checklists-ios/blob/master/Checklist/Assets.xcassets/LaunchScreenIcon.imageset/iTunesArtwork%401x.png)
-
 # Checklists
 
 An iOS application for creating checklists. This app is a personal playground for
