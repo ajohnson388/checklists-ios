@@ -26,7 +26,7 @@ Xcode 9 can be installed from the [Mac App Store](https://itunes.apple.com/us/ap
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License - see the [LICENSE](https://github.com/ajohnson388/checklists-ios/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
